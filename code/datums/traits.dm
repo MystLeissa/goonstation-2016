@@ -348,6 +348,14 @@
 	points = -1
 	isPositive = 1
 
+/obj/trait/allears
+	name = "All Ears (+1)"
+	cleanName="All ears"
+	desc = "You spawn without a headset"
+	id = "allears"
+	points = 1
+	isPositive = 0
+
 /obj/trait/immigrant
 	name = "Illegal immigrant (+1)"
 	cleanName = "Illegal immigrant"

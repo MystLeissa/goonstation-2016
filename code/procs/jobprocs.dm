@@ -318,6 +318,8 @@
 		src.equip_if_possible(new JOB.slot_suit(src), slot_wear_suit)
 	if (JOB.slot_ears)
 		src.equip_if_possible(new JOB.slot_ears(src), slot_ears)
+		if(src.traitHolder && src.traitHolder.hasTrait("allears") && istype(src.ears,/obj/item/device/radio/headset))
+			del(src.ears)
 	if (JOB.slot_mask)
 		src.equip_if_possible(new JOB.slot_mask(src), slot_wear_mask)
 	if (JOB.slot_glov)
