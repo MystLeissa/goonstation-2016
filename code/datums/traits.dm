@@ -349,9 +349,10 @@
 	isPositive = 1
 
 /obj/trait/allears
-	name = "All Ears (+1)"
+	name = "All Ears (+1) \[Trinkets\]"
 	cleanName="All ears"
-	desc = "You spawn without a headset"
+	desc = "You lost your headset on the way to work."
+	category = "trinkets"
 	id = "allears"
 	points = 1
 	isPositive = 0
